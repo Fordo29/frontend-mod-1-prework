@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log("oh, Hello!");
+};
+
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -34,20 +40,31 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
+function greetMe(name) {
+  console.log("Hello" + " " + name);
+};
 
-
+greetMe('Suzy');
+greetMe('Edgar');
+greetMe('Jonathon');
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
-
-
+function totalAnimals(dogs, cats) {
+  console.log(dogs + cats);
+};
+totalAnimals(6, 2);
+totalAnimals(3, 4);
+totalAnimals(1, 9);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-
-
+function buddyList(buddy1, buddy2) {
+  console.log(buddy1 + " " + buddy2 + " are BFFS");
+};
+buddyList("Oscar", "Ruck");
 //-------------------
 // PART 3: Naming is Hard
 //-------------------
@@ -59,7 +76,10 @@ that it is reasonable to type, but descriptive enough that others can infer the 
 Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 What did you name each parameter, and why?
 
-EXPLAIN:
+EXPLAIN: I used buddyList as my function name.  I wanted to have a function name that represented the type of
+i was going to present.  I was going to use strings of names of friends.  and I made my parameter name was more
+specific to the strings I was going to use.  I thought it would be easier to understand even for me to look back
+later and see what I was trying to do here.  
 
 
 */
