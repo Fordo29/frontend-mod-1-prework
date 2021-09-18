@@ -1,15 +1,16 @@
 ## Section 3 Reflection
 
-1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
+1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you? 1. Take challenges head on and not be afraid to come across something completely new to you.  2. Understanding that making mistakes are a part of the process of learning and we shouldn't feel discouraged when I make one.
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+I like to take on new challenges and push myself. So in that way I have a growth mindset, when given a new project/program to work on, I will get excited and anxious at the start - like the first day of school feeling.  However, I typically hold off asking questions because of prior history with unapproachable teammates.  Usually my questions are less open ended and more concise, "When I do x, I do this because of Y. correct?" I know I have to get past being afraid to seek help outside of google if I get really stuck.  
 
-1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain. I can see arrays used in a lot of website, first one that comes to mind is Amazon.  They use arrays to list out past orders or even prior searches within the website and they are in order from most recent to further out in the past.
 
-1. In your own words, explain what an Array method is.
+1. In your own words, explain what an Array method is. It is an indexed list-like function that allows you to iterate through a function multiple times.  Arrays can have numbers, strings, booleans and arrays as a data type.  
 
-1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?  The purpose of a loop is to iterate (repeat the same process over and over) an action until the loop ends.  We would use loops with an array to cycle through function through until all the variables in the array have been evaluated.  You can use a loop to tell a function to do that function 5 times...  I don't really know when yet you would want to do that.  First thing that comes to mind is counting items or doing sums of number variables.
 
-1. If you had to teach a 5 year old about loops, how would you explain it?
+1. If you had to teach a 5 year old about loops, how would you explain it?  I would explain loops to a 5 year old by demonstrating any action such as loading dishes into a dishwasher.  I take one plate rinse it off, and place the plate in the dishwasher and repeat the process over and over until all the dirty plates are in the dishwasher.  I would say, "Imagine a computer doing the same action of loading the dishwasher over and over, that is looping."
 
-1. What questions do you still have about Arrays and loops?
+1. What questions do you still have about Arrays and loops? I got a little stuck on the last question on the loops-arrays.js doc.  I wrote out how I wanted to execute and I wanted to see without googling how far I would get.  The part I got stuck on was I had to reference the age array into the if statement using `ages[i]` prior to that I was just `ages`.  It worked when I made that small change...  my question is that the entire code displayed but I assume only looked at the first number when I had that one thing wrong..  I want to know what I was displaying and why the rest of the loop executed.  
