@@ -22,7 +22,8 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: My zoo has 7 unicorns!
+// Your answer and explanation here: My zoo has 7 unicorns!  I used interpolation to inject
+// the values for numberOfCreatures and creatures into the log.  It is much easier to read than concatenation. 
 
 
 // YOU DO:
@@ -56,3 +57,4 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}`);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
+  //yes.

@@ -17,35 +17,36 @@ Make sure to run the file with node in your command line.
 
 
 // Prompt 1: Dog
-// class dog {
+// class Dog
+// {
 // }
-// var goldenRetriever = new dog();
-// console.log(goldenRetriever);
+// var GoldenRetriever = new Dog();
+// console.log(GoldenRetriever);
 //
-// var houndDog = new dog();
-// console.log(houndDog);
+// var HoundDog = new Dog();
+// console.log(HoundDog);
 
 
 // Prompt 2: Snack
-// class snack {
+// class Snack {
 //
 // }
-// var chips = new snack();
-// console.log(chips);
+// var Chips = new Snack();
+// console.log(Chips);
 //
-// var sweets = new snack();
+// var Sweets = new Snack();
 // console.log(sweets);
 //
 //
 // // Prompt 3: Shirt
-// class shirt {
+// class Shirt {
 //
 // }
-// var shortSleeves = new shirt();
-// console.log(shortSleeves);
+// var ShortSleeves = new Shirt();
+// console.log(ShortSleeves);
 //
-// var longSleeves = new shirt();
-// console.log(longSleeves);
+// var LongSleeves = new Shirt();
+// console.log(LongSleeves);
 //
 //
 // //-------------------
@@ -60,46 +61,46 @@ Make sure to run the file with node in your command line.
 //   // Log that variable to the console.
 //
 // // Prompt 1: Dog
-// class dog {
+// class Dog {
 //   constructor() {
 //     this.dogName = "Cooper";
 //     this.size = "Large";
 //     this.dogAge = 4
 //   }
 // }
-// var goldenRetriever = new dog();
-// console.log(goldenRetriever);
+// var GoldenRetriever = new Dog();
+// console.log(GoldenRetriever);
 //
-// var houndDog = new dog();
-// console.log(houndDog);
+// var HoundDog = new Dog();
+// console.log(HoundDog);
 //
 // // Prompt 2: Snack
-// class snack {
+// class Snack {
 //   constructor() {
 //     this.salty = true;
 //     this.dateOfExp = "08/14/2025";
 //     this.portionSize = "Single";
 //   }
 // }
-// var chips = new snack();
-// console.log(chips);
+// var Chips = new Snack();
+// console.log(Chips);
 //
-// var sweets = new snack();
-// console.log(sweets);
+// var Sweets = new Snack();
+// console.log(Sweets);
 //
 // // Prompt 3: Shirt
-// class shirt {
+// class Shirt {
 //   constructor() {
 //     this.shirtColor = "Blue"
 //     this.shirtMaterial = "Cotton"
 //     this.shirtbuttons = true
 //   }
 // }
-// var shortSleeves = new shirt();
-// console.log(shortSleeves);
+// var ShortSleeves = new Shirt();
+// console.log(ShortSleeves);
 //
-// var longSleeves = new shirt();
-// console.log(longSleeves);
+// var LongSleeves = new Shirt();
+// console.log(LongSleeves);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -113,43 +114,43 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
   // Prompt 1: Dog
-  class dog {
+  class Dog {
     constructor(name, size, age) {
       this.dogName = name;
       this.size = size;
       this.dogAge = age;
     }
   }
-  var goldenRetriever = new dog("Cooper", "Large", 7);
-  console.log(goldenRetriever);
+  var GoldenRetriever = new Dog("Cooper", "Large", 7);
+  console.log(GoldenRetriever);
 
-  var houndDog = new dog("Hank", "Large", 12);
-  console.log(houndDog);
+  var HoundDog = new Dog("Hank", "Large", 12);
+  console.log(HoundDog);
 
   // Prompt 2: Snack
-  class snack {
+  class Snack {
     constructor(salty, date, portion) {
       this.saltySnack = salty;
       this.dateOfExp = date;
       this.portionSize = portion;
     }
   }
-  var chips = new snack(true, "5/9/2023", "single");
-  console.log(chips);
+  var Chips = new Snack(true, "5/9/2023", "single");
+  console.log(Chips);
 
-  var sweets = new snack(false, "6/29/2030", "Family Size");
-  console.log(sweets);
+  var Sweets = new Snack(false, "6/29/2030", "Family Size");
+  console.log(Sweets);
 
   // Prompt 3: Shirt
-  class shirt {
+  class Shirt {
     constructor(color, material, buttons) {
       this.shirtColor = color;
       this.shirtMaterial = material;
       this.shirtbuttons = buttons;
     }
   }
-  var shortSleeves = new shirt("blue", "Cotton", false);
-  console.log(shortSleeves);
+  var ShortSleeves = new Shirt("blue", "Cotton", false);
+  console.log(ShortSleeves);
 
-  var longSleeves = new shirt("red", "silk", true);
-  console.log(longSleeves);
+  var LongSleeves = new Shirt("red", "silk", true);
+  console.log(LongSleeves);
